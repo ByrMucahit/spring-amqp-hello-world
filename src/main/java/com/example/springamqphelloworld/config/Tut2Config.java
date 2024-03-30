@@ -1,7 +1,7 @@
 package com.example.springamqphelloworld.config;
 
-import com.example.springamqphelloworld.Tut2Receiver;
-import com.example.springamqphelloworld.Tut2Sender;
+import com.example.springamqphelloworld.tut2.Tut2Receiver;
+import com.example.springamqphelloworld.tut2.Tut2Sender;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -29,7 +29,7 @@ public class Tut2Config {
         }
     }
 
-    @Profile("sender")git add README.md
+    @Profile("sender")
     @Bean
     public Tut2Sender sender() {
         return new Tut2Sender();

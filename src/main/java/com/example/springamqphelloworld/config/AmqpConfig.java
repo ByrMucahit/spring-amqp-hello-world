@@ -1,7 +1,7 @@
 package com.example.springamqphelloworld.config;
 
-import com.example.springamqphelloworld.Tut1Receiver;
-import com.example.springamqphelloworld.Tut1Sender;
+import com.example.springamqphelloworld.tut1.Tut1Receiver;
+import com.example.springamqphelloworld.tut1.Tut1Sender;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
